@@ -1,0 +1,10 @@
+.container{
+    margin: 0;
+    
+    width: auto;
+    height: 100vh;
+    min-width: auto;
+    background: #0B0D17;
+    overflow: hidden;
+    background-image: url('../assets/crew/background-crew-desktop.jpg');
+}
