@@ -4,8 +4,8 @@ import NavBar from './NavBar'
 export default function Crew() {
   return (
     <>
-      <div className="container">
-      <NavBar/>
+      <div className="containerCrew">
+      
       </div>
     </>
   )

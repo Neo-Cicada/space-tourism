@@ -4,8 +4,8 @@ import NavBar from './NavBar'
 export default function Destination() {
   return (
     <>
-      <div className='container'> 
-          <NavBar/>
+      <div className='containerDestination'> 
+          
       </div>
       
     </>

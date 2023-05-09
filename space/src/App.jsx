@@ -9,20 +9,23 @@ import NavBar from './components/NavBar'
 
 function App() {
 
-  return(
+  return (
     <>
-    
-     
 
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/Destination' element={<Destination />} />
-        <Route path='/Crew' element={<Crew />} />
-        <Route path='/Technology' element={<Technology />} />
-      </Routes>    
+        <NavBar/>
+
+      
+    <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/Destination' element={<Destination />} />
+          <Route path='/Crew' element={<Crew />} />
+          <Route path='/Technology' element={<Technology />} />
+        </Routes>
+
+      
     </>
-  
-  ) 
-  }
+
+  )
+}
 
 export default App

@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 export default function Technology() {
   return (
     <div className="container">
-      <NavBar />
+      
     </div>
   )
 }

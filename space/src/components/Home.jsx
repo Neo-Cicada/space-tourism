@@ -3,13 +3,13 @@ import NavBar from './NavBar'
 
 import React from 'react'
 import styles from '../styles/home.module.css'
-export default function Home() {
+export default function Home(props) {
     return (
         <>
             <div className={styles.container}>
                 
-                <NavBar/>
-
+                {props.navbar}
+                
                 <div className={styles.box}>
                     <div className={styles.travel}> SO, YOU WANT TO TRAVEL TO</div>
                     <div className={styles.space}>SPACE</div>

@@ -10,11 +10,19 @@
 }
 .navigation{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
     justify-content: space-between;
     margin-left: 55px;
     margin-top: 40px;
+    width: 95.6vw;
     height: 96px;
     align-items: center; 
+    position: absolute;
+    
+    z-index: 1;
 }
 a{
     font-family: 'Barlow Condensed';
@@ -28,14 +36,14 @@ a{
 }
 .line{
     position: absolute;
-width: 435px;
-height: 1px;
-left: 167px;
-top: 88px;
-
-background: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.25;
+    width: 473px;
+    height: 1px;
+    left: 100px;
+    top: 50px;
+    
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
 }
 .tags{
     height: 96px;
@@ -112,3 +120,9 @@ span{
     font-weight: 700;
     font-size: 16px;
 }
+/* .navbarContainer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+  } */
