@@ -50,9 +50,9 @@
 .destinationBox{
     position: absolute;
     width: 445px;
-    height: 272px;
+    height: 322px;
     left: 832px;
-    top: 280px;
+    top: 220px;
 
 }
 .planetBox{
@@ -60,5 +60,128 @@
     width: 345px;
     height: 245px;
     left: 230px;
-    top: 300px;
+    top: 280px;
+}
+.planetBox > img{
+    width: 345px;
+    height: 345px;
+    
+}
+.planetName{
+    display: flex;
+    height: 115px;
+    left: 0.11%;
+    right: 25.06%;
+    top: calc(50% - 115px/2 - 107.5px);
+    
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.planetDescription{
+   
+    height: 128px;
+    left: 0%;
+    right: 0.22%;
+    top: calc(50% - 128px/2 + 28px);
+    
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    
+    
+    color: #D0D6F9;
+    
+}
+
+.planetList{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 30px;
+}
+.listName{
+    height: 19px;
+    left: 0.18%;
+    right: 86.16%;
+    top: calc(50% - 19px/2 - 7.5px);
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+
+    color: #FFFFFF;
+
+}
+
+.calculations{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    height: 55px;
+    gap: 70px;
+}
+.distance{
+    height: 32px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 32px/2 + 14.5px);
+
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.travelTime{
+    height: 32px;
+    left: 0%;
+    right: 25.41%;
+    top: calc(50% - 32px/2 + 14.5px);
+
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.avg, .est{
+    height: 17px;
+    left: 0%;
+    right: 32.17%;
+    top: calc(50% - 17px/2 - 22px);
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+
+    color: #D0D6F9;
 }
