@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles/home.module.css';
 
+
+
 export default function NavBar() {
   return (
     
@@ -19,6 +21,8 @@ export default function NavBar() {
           <Link to="/">
             <span>00</span> Home
           </Link>
+          
+          
           <Link to="Destination">
             <span>01</span> Destination
           </Link>

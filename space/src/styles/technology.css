@@ -58,8 +58,7 @@ right: 90.16%;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
-
-color: #D0D6F9;
+    color: #D0D6F9;
 }
 .techBox > .techTitles{
     
@@ -77,7 +76,7 @@ color: #D0D6F9;
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 32px;
     /* or 178% */
 
