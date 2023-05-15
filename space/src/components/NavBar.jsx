@@ -18,18 +18,18 @@ export default function NavBar() {
         </div>
         <div className={styles.line}></div>
         <nav className={styles.tags}>
-          <Link to="/">
+          <Link to="/" className={styles.home}>
             <span>00</span> Home
           </Link>
           
           
-          <Link to="Destination">
+          <Link to="Destination" className={styles.destination}>
             <span>01</span> Destination
           </Link>
-          <Link to="Crew">
+          <Link to="Crew" className={styles.crew}>
             <span>02</span> Crew
           </Link>
-          <Link to="Technology">
+          <Link to="Technology" className={styles.technology}>
             <span>03</span> Technology
           </Link>
         </nav>

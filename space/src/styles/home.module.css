@@ -127,3 +127,7 @@ span{
     z-index: 1;
   } */
 
+  .home:hover, .destination:hover,  .crew:hover, .technology:hover{
+    border-bottom: 1px solid red;
+    
+  }
