@@ -25,7 +25,7 @@ export default function Home(props) {
                 
 
                 
-             
+             {/* commenting so I can commit something today, because I had a busy day that I didnt have time to code:) */}
                 
 
             </div>
