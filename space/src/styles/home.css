@@ -1,4 +1,4 @@
-.container{
+.containerHome{
     margin: 0;
     position: relative;
     width: auto;
@@ -45,7 +45,7 @@ a{
     mix-blend-mode: normal;
     opacity: 0.25;
 }
-.tags{
+.tagsBar{
     height: 96px;
     width: 60%;
     display: flex;
@@ -57,14 +57,14 @@ a{
     justify-content: space-evenly;
     
 }
-.box{
+.boxHome{
     position: absolute;
     width: 450px;
     height: 322px;
     left: 165px;
     top: 317px;
 }
-.travel{
+.travelHome{
     color: #D0D6F9;
     width: 379px;
     height: 34px;
@@ -73,7 +73,7 @@ a{
     font-style: 'Regular';
     font-weight: 400px;
 }
-.space{
+.spaceHome{
     width: 445px;
     height: 172px;
     font-family: 'Barlow Condensed';
@@ -86,7 +86,7 @@ a{
     justify-content: start;
     align-items: flex-start;
 }
-.p{
+.pHome{
     color: #D0D6F9;
     width: 444px;
     height: 126px;
@@ -94,7 +94,7 @@ a{
     font-weight: 400;
 }
 
-.circle{
+.circleHome{
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -112,7 +112,7 @@ a{
         font-style: normal;
         letter-spacing: 2px;
 }
-.circle::after {
+.circleHome::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -126,7 +126,7 @@ a{
     pointer-events: none;
   }
 
-  .circle:hover::after {
+  .circleHome:hover::after {
     width: 130%;
     height: 130%;
     background: #FFFFFF;

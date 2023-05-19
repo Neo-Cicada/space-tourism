@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from '../styles/home.module.css';
-
+import '../styles/home.css'
 
 
 export default function NavBar() {
   return (
     
-      <div className={styles.navigation}>
+      <div className='navigation'>
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
             <g fill="none" fill-rule="evenodd">
@@ -16,20 +15,18 @@ export default function NavBar() {
             </g>
           </svg>
         </div>
-        <div className={styles.line}></div>
-        <nav className={styles.tags}>
-          <Link to="/" className={styles.home}>
+        <div className='line'></div>
+        <nav className='tagsBar'>
+          <Link to="/" className='homeBar'>
             <span>00</span> Home
           </Link>
-          
-          
-          <Link to="Destination" className={styles.destination}>
+          <Link to="Destination" className='destinationBar'>
             <span>01</span> Destination
           </Link>
-          <Link to="Crew" className={styles.crew}>
+          <Link to="Crew" className='crewBar'>
             <span>02</span> Crew
           </Link>
-          <Link to="Technology" className={styles.technology}>
+          <Link to="Technology" className='technologyBar'>
             <span>03</span> Technology
           </Link>
         </nav>

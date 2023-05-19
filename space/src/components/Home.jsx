@@ -2,24 +2,24 @@ import { Link} from 'react-router-dom'
 import NavBar from './NavBar'
 
 import React from 'react'
-import styles from '../styles/home.module.css'
+import '../styles/home.css'
 export default function Home(props) {
     return (
         <>
-            <div className={styles.container}>
+            <div className='containerHome'>
                 
                 {props.navbar}
                 
-                <div className={styles.box}>
-                    <div className={styles.travel}> SO, YOU WANT TO TRAVEL TO</div>
-                    <div className={styles.space}>SPACE</div>
-                    <p className={styles.p}>Let's face it; if you want to go to space, you might as well genuinely go to
+                <div className='boxHome'>
+                    <div className='travelHome'> SO, YOU WANT TO TRAVEL TO</div>
+                    <div className='spaceHome'>SPACE</div>
+                    <p className='pHome'>Let's face it; if you want to go to space, you might as well genuinely go to
                         outer space and not hover kind of on the edge of it. Well sit back, and relax
                         because we'll give you a truly out of this world experience!</p>
                 </div>
 
                 
-                    <div className={styles.circle}>
+                    <div className='circleHome'>
                         Explore
                     </div>
                 
