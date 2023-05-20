@@ -154,3 +154,47 @@ span{
     
   }
 
+@media (max-width: 821px) {
+    .containerHome{
+        max-width: 100vw;
+        background-image: url('../assets/home/background-home-tablet.jpg');
+        
+    }
+    .boxHome{
+        position: absolute;
+        width: 450px;
+        height: 334px;
+        left: 159px;
+        top: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .circleHome{
+        position: absolute;
+        width: 242px;
+        height: 242px;
+        left: 263px;
+        top: 692px;
+
+    }
+    .pHome{
+        position: absolute;
+        height: 112px;
+        left: 0.67%;
+        right: 0.67%;
+        top: calc(50% - 112px/2 + 111px);
+
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        /* or 175% */
+
+        text-align: center;
+
+        color: #D0D6F9;
+
+    }
+}
