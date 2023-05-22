@@ -188,3 +188,25 @@
 
     color: #D0D6F9;
 }
+@media(max-width: 768px){
+    .destination{
+        position: absolute;
+        width: 272px;
+        height: 24px;
+        left: 38.5px;
+        top: 136px;
+    }
+    .planetBox{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 234px;
+        top: 220px;
+    }
+    .destinationBox{
+        position: absolute;
+        left: 231px;
+        top: 573px;
+
+    }
+}
