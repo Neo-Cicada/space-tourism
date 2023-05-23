@@ -129,3 +129,64 @@
     height: 480px;
     
 }
+@media(max-width: 768px ){
+    .containerCrew{
+        background-image: url('../assets/crew/background-crew-tablet.jpg');
+    }
+    .crewGreetings{
+        position: absolute;
+        width: 204px;
+        height: 24px;
+        left: 38.5px;
+        top: 136px;
+
+    }
+    .crewRole{
+        position: absolute;
+        height: 28px;
+        left: 32.42%;
+        right: 32.42%;
+        top: calc(50% - 28px/2 - 77px);
+
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    .crewName{
+        position: absolute;
+        height: 46px;
+        left: 0.11%;
+        right: 0.11%;
+        top: calc(50% - 46px/2 - 32px);
+
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 46px;
+        /* identical to box height */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+    .crewImgBox{
+        position: absolute;
+        width: 456.37px;
+        height: 572px;
+        left: 155.85px;
+        top: 492px;
+    }
+}
